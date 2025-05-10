@@ -22,8 +22,8 @@ try:
     username_input = driver.find_element(By.ID, "uLogin")
     password_input = driver.find_element(By.ID, "uPassword")
 
-    username_input.send_keys("4dmin")
-    password_input.send_keys("fingerprint11$")
+    username_input.send_keys("")
+    password_input.send_keys("")
     # code.send_keys("cde3")
 
     # --- Klik tombol login ---
